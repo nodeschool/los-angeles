@@ -2,3 +2,5 @@
 * @jcblw
 * @aktary
 * @andyburke
+* @rynodivino
+* @paigeful
