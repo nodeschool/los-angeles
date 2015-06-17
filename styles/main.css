@@ -11,14 +11,21 @@ html {
 
 
 /* Columns */
-.col-third {
-    width: 30%;    
+
+[class^=col] {
+  max-width: 100%;
 }
-.col-two-thirds {
-    width: 60%;    
-}
-.col-half {
-    width: 40%;
+
+@media (min-width: 767px) { /* just on larger screens */
+  .col-third {
+      width: 30%;
+  }
+  .col-two-thirds {
+      width: 60%;
+  }
+  .col-half {
+      width: 40%;
+  }
 }
 
 
@@ -47,7 +54,7 @@ header {
 }
 
 .subhead {
-   font-size: 26px; 
+   font-size: 26px;
    letter-spacing: 1px;
 }
 .subhead.callout {
@@ -73,18 +80,44 @@ header {
     vertical-align: top;
 }
 
-
 .title {
-    font-size: 80px;
+    font-size: 35px;
     text-transform: uppercase;
 }
 
-.logo {
-    width: 250px;
+
+@media (min-width: 415px) {
+  .title {
+      font-size: 45px;
+  }
 }
 
-.introduction {
-    min-width: 500px;
+@media (min-width: 767px) {
+  .title {
+      font-size: 80px;
+  }
+}
+
+.logo {
+    max-width: 100%;
+}
+
+@media (min-width: 415px) {
+  .logo {
+    max-width: 250px;
+  }
+}
+
+@media (min-width: 767px) {
+
+  .introduction {
+      min-width: 500px;
+  }
+
+  .logo {
+    max-width: 250px;
+  }
+
 }
 
 
@@ -93,14 +126,20 @@ header {
     list-style-type: none;
     padding: 0;
 }
-#overview li {
-    display: inline-block;
-    vertical-align: top;
-    width: 25%;
+
+@media (min-width: 767px) { /* just on larger screens */
+
+  #overview li {
+      display: inline-block;
+      vertical-align: top;
+      width: 25%;
+  }
+  #overview li + li {
+      margin-left: 100px;
+  }
+
 }
-#overview li + li {
-    margin-left: 100px;
-}
+
 #overview .icons {
     font-size: 90px;
 }
@@ -185,4 +224,3 @@ footer a {
 footer a:hover {
     border-bottom: 1px solid #888;
 }
-
