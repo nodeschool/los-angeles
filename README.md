@@ -5,7 +5,7 @@ nodeschool: LA Edition
 
 ## Next Event
 
-### July 25, 2015: 2pm - 4pm
+### July 25, 2015: 2pm - 6pm
 
 To sign up for the next event, please visit: http://nodeschool.io/los-angeles
 
