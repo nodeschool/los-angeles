@@ -118,6 +118,13 @@ header {
     max-width: 250px;
   }
 
+
+}
+
+@media (max-width: 767px) {
+  .subhead.callout {
+    display: block;
+  }
 }
 
 
