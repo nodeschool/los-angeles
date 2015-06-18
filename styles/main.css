@@ -62,6 +62,7 @@ header {
     border: 2px solid #000;
     border-radius: 3px;
     color: #fff;
+	display: block;
     font-weight: 700;
     padding: 8px 12px;
     text-decoration: none;
@@ -116,14 +117,6 @@ header {
 
   .logo {
     max-width: 250px;
-  }
-
-
-}
-
-@media (max-width: 767px) {
-  .subhead.callout {
-    display: block;
   }
 }
 
