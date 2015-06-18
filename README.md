@@ -3,4 +3,14 @@ los-angeles
 
 nodeschool: LA Edition
 
-For more information on the next event, please visit: http://nodeschool.io/los-angeles
+## Next Event
+
+### July 25, 2015: 2pm - 4pm
+
+To sign up for the next event, please visit: http://nodeschool.io/los-angeles
+
+Mentors
+ * [@d48](https://github.com/d48)
+ * [@davidguttman](https://github.com/davidguttman)
+
+If you would like to help mentor at this event, please create a [Pull Request](https://github.com/nodeschool/los-angeles/pulls) and add your name to this list.
