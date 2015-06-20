@@ -82,8 +82,9 @@ header {
 }
 
 .title {
-    font-size: 35px;
+    font-size: 45px;
     text-transform: uppercase;
+    white-space: nowrap;
 }
 
 
@@ -110,7 +111,6 @@ header {
 }
 
 @media (min-width: 767px) {
-
   .introduction {
       min-width: 500px;
   }
@@ -121,14 +121,73 @@ header {
 }
 
 
+/* Sponsors */
+#sponsors ul {
+    list-style-type: none;
+    padding: 0;
+}
+#sponsors .col-third {
+    display: inline-block;
+    vertical-align: top;
+}
+#sponsors .col-third a {
+    border-bottom: none;
+}
+#sponsors .col-two-thirds  {
+    text-align: left;
+}
+#sponsors img {
+    text-align: center;
+    margin-top: 50px;
+    max-width: 270px;
+}
+
+#sponsors p {
+    font-size: 18px;
+}
+
+#sponsors a {
+    border-bottom-color: blue;
+    color: blue;    
+}
+
+@media (min-width: 415px) {
+    #sponsors .col-two-thirds  {
+        padding-left: 0;
+    }
+    #sponsors img {
+        margin-top: 50px;
+        max-width: 400px;
+    }
+    #sponsors p {
+        font-size: 22px;
+    }
+}
+
+@media (min-width: 767px) {
+    #sponsors .col-two-thirds  {
+        padding: 16px 0 0 200px;
+    }
+    #sponsors img {
+        margin-top: 0;
+    }
+}
+
+
+
 /* Overview */
 #overview ul {
     list-style-type: none;
     padding: 0;
 }
-
+#overview .icons {
+    font-size: 90px;
+}
+#overview .container {
+    box-shadow: 5px 0px 30px #bbb;
+    position: relative;
+}
 @media (min-width: 767px) { /* just on larger screens */
-
   #overview li {
       display: inline-block;
       vertical-align: top;
@@ -137,11 +196,6 @@ header {
   #overview li + li {
       margin-left: 100px;
   }
-
-}
-
-#overview .icons {
-    font-size: 90px;
 }
 
 
@@ -155,13 +209,13 @@ header {
 
 /* Section */
 section h2 {
-    font-size: 48px;
-}
-section h3 {
     font-size: 36px;
 }
+section h3 {
+    font-size: 24px;
+}
 section p {
-    font-size: 26px;
+    font-size: 22px;
 }
 section a {
     color: #000;
@@ -173,6 +227,18 @@ section a:hover {
     color: blue;
     border-color: blue;
 }
+@media (min-width: 767px) {
+    section h2 {
+        font-size: 48px;
+    }
+    section h3 {
+        font-size: 36px;
+    }
+    section p {
+        font-size: 26px;
+    }
+}
+
 
 
 /* Nav */
