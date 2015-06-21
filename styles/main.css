@@ -73,7 +73,7 @@ header {
 
 .container {
     margin: 0 auto;
-    padding: 70px;
+    padding: 50px;
 }
 
 .container .col-third, .container .col-two-thirds, .container .col-half {
@@ -181,13 +181,19 @@ header {
     padding: 0;
 }
 #overview .icons {
-    font-size: 90px;
+    font-size: 60px;
 }
 #overview .container {
     box-shadow: 5px 0px 30px #bbb;
     position: relative;
 }
+#overview li + li {
+    margin-top: 100px;
+}
 @media (min-width: 767px) { /* just on larger screens */
+  #overview .icons {
+      font-size: 90px;
+  }
   #overview li {
       display: inline-block;
       vertical-align: top;
@@ -195,6 +201,7 @@ header {
   }
   #overview li + li {
       margin-left: 100px;
+      margin-top: 0;
   }
 }
 
