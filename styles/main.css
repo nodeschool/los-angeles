@@ -285,6 +285,7 @@ footer ul {
     list-style-type: none;
     text-align: left;
     float: right;
+    padding: 0;
 }
 footer li {
     margin: 6px 0;
