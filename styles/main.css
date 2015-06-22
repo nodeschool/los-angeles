@@ -74,6 +74,7 @@ header {
 .container {
     margin: 0 auto;
     padding: 50px;
+    max-width: 1600px;
 }
 
 .container .col-third, .container .col-two-thirds, .container .col-half {
@@ -285,6 +286,7 @@ footer ul {
     list-style-type: none;
     text-align: left;
     float: right;
+    padding: 0;
 }
 footer li {
     margin: 6px 0;
