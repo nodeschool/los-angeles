@@ -1,7 +1,12 @@
-* @emkay
-* @jcblw
+* @8bitDesigner
 * @aktary
 * @andyburke
-* @rynodivino
-* @paigeful
+* @d48
+* @davidguttman
+* @emkay
 * @etanlubeck
+* @jcblw
+* @paigeful
+* @rynodivino
+* @soldair
+* @xbudex
