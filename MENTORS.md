@@ -3,6 +3,7 @@
 * @andyburke
 * @d48
 * @davidguttman
+* @dstokes
 * @emkay
 * @etanlubeck
 * @jcblw
