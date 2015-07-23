@@ -13,7 +13,6 @@ To sign up for the next event, please visit: http://nodeschool.io/los-angeles
  * [@d48](https://github.com/d48)
  * [@davidguttman](https://github.com/davidguttman)
  * [@8bitDesigner](https://github.com/8bitDesigner/)
- * [@andyburke](https://github.com/andyburke)
  * [@rynodivino](https://github.com/rynodivino)
  * [@paigeful](https://github.com/paigeful)
  * [@aktary](https://github.com/aktary)
