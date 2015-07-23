@@ -234,6 +234,7 @@ header {
 
 #information h2 {
     margin-top: 60px;
+    margin-bottom: 30px;
 }
 
 #information h2:first-child {
@@ -243,6 +244,7 @@ header {
 /* Section */
 section h2 {
     font-size: 36px;
+    text-transform: uppercase;
 }
 section h3 {
     font-size: 24px;
