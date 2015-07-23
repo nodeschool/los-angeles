@@ -213,7 +213,32 @@ header {
     background-color: #d6efff;
 }
 
+/* Information */
+#information {
+    box-shadow: 5px 0 30px #bbb;
+}
 
+#information .container {
+    max-width: 1000px;
+}
+#information p {
+    font-size: 22px;
+    text-align: left;
+    margin: 30px;
+    margin-top: 0;
+}
+#information h3 {
+    text-align: left;
+    margin-left: 30px;
+}
+
+#information h2 {
+    margin-top: 60px;
+}
+
+#information h2:first-child {
+    margin-top: 0;
+}
 
 /* Section */
 section h2 {
