@@ -1,0 +1,63 @@
+// reskin pure buttons
+.pure-button {
+    border-radius: 100px;
+    padding: 1em 1.5em; // adding some more spacing to buttons
+    .m-transition(all .3s);
+}
+
+.pure-button:active,
+.pure-button:hover,
+.pure-button:focus {
+  box-shadow: none;
+  background-image: none;
+}
+
+.pure-button:hover {
+  .m-transform(scale(1.1));
+}
+
+// button modifiers
+.btn--ghost {
+  color: @darkGrey;
+  border: 2px solid @darkGrey;
+  background-color: transparent;
+}
+
+.btn--ghost:hover,
+.btn--ghost:focus {
+    background-color: @darkGrey;
+    color: white;
+}
+
+.btn--primary {
+    border: 2px solid @primary;
+    background-color: @primary;
+    color: @darkGrey;
+}
+
+.btn--primary:hover,
+.btn--primary:focus {
+    background-color: @primary-light;
+}
+
+.btn--secondary {
+    border: 2px solid @secondary;
+    background-color: @secondary;
+    color: white;
+}
+
+.btn--secondary:hover,
+.btn--secondary:focus {
+    background-color: @secondary-light;
+}
+
+.btn--tertiary {
+    border: 2px solid @tertiary;
+    background-color: @tertiary;
+    color: white;
+}
+
+.btn--tertiary:hover,
+.btn--tertiary:focus {
+    background-color: @tertiary-light;
+}
