@@ -7,6 +7,13 @@
 .u-textAlign--left { text-align: left; }
 .u-textAlign--right { text-align: right; }
 
+// breakpoint align changes
+
+@media screen and ( min-width: @md ) {
+  .u-md-textAlign--left { text-align: left; }
+}
+
+
 /*
   Bg Color
 */
@@ -45,4 +52,36 @@
 
 .u-positionRelative {
   position: relative;
+}
+
+/*
+  Hexagons
+*/
+
+.u-hexagon {
+  position: relative;
+  width: 300px;
+  height: 173.21px;
+  background-color: #ffffff;
+  margin: 86.60px 0;
+}
+
+.u-hexagon:before,
+.u-hexagon:after {
+  content: "";
+  position: absolute;
+  width: 0;
+  border-left: 150px solid transparent;
+  border-right: 150px solid transparent;
+}
+
+.u-hexagon:before {
+  bottom: 100%;
+  border-bottom: 86.60px solid #ffffff;
+}
+
+.u-hexagon:after {
+  top: 100%;
+  width: 0;
+  border-top: 86.60px solid #ffffff;
 }

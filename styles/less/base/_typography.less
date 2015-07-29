@@ -53,36 +53,45 @@ li {
 
 .t-header {
   .m-fontBold();
-  font-size: 50px;
+  font-size: @t-lg;
 }
 
 .t-subHeader {
   .m-fontNormal();
-  font-size: 18px;
+  font-size: @t-sm;
 }
 
 .t-calloutText {
   .m-fontItalic();
-  font-size: 18px;
+  font-size: @t-sm;
 }
 
 .t-title {
+  text-transform: uppercase;
   .m-fontBold();
-  font-size: 36px;
+  font-size: @t-lg;
+  margin-top: 0;
 }
 
 .t-paragraph {
   .m-fontNormal();
-  font-size: 18px;
+  font-size: @t-sm;
 }
 
 .t-code {
   .m-fontFixedWidth();
-  font-size: 25px;
+  font-size: @t-md;
 }
 
 .t-btnText {
   .m-fontBold();
   text-transform: uppercase;
-  font-size: 18px;
+  font-size: @t-sm;
+}
+
+
+@media screen and (min-width: @md) {
+  .t-header {
+    font-size: @t-xl;
+  }
 }

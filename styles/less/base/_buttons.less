@@ -1,5 +1,6 @@
 // reskin pure buttons
 .pure-button {
+    width: 100%;
     border-radius: 100px;
     padding: 1em 1.5em; // adding some more spacing to buttons
     .m-transition(all .3s);
@@ -18,14 +19,13 @@
 
 // button modifiers
 .btn--ghost {
-  color: @darkGrey;
-  border: 2px solid @darkGrey;
+  color: white;
+  border: 2px solid white;
   background-color: transparent;
 }
 
 .btn--ghost:hover,
 .btn--ghost:focus {
-    background-color: @darkGrey;
     color: white;
 }
 
@@ -60,4 +60,10 @@
 .btn--tertiary:hover,
 .btn--tertiary:focus {
     background-color: @tertiary-light;
+}
+
+@media screen and (min-width: @sm) {
+  .pure-button {
+    width: auto;
+  }
 }

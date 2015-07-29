@@ -1,3 +1,6 @@
+/* Breakpoints */
+/* Font Sizes */
+/* Colors */
 /*
  Text Align Utilities
 */
@@ -10,6 +13,11 @@
 }
 .u-textAlign--right {
   text-align: right;
+}
+@media screen and (min-width: 768px) {
+  .u-md-textAlign--left {
+    text-align: left;
+  }
 }
 /*
   Bg Color
@@ -67,6 +75,33 @@
 .u-positionRelative {
   position: relative;
 }
+/*
+  Hexagons
+*/
+.u-hexagon {
+  position: relative;
+  width: 300px;
+  height: 173.21px;
+  background-color: #ffffff;
+  margin: 86.60px 0;
+}
+.u-hexagon:before,
+.u-hexagon:after {
+  content: "";
+  position: absolute;
+  width: 0;
+  border-left: 150px solid transparent;
+  border-right: 150px solid transparent;
+}
+.u-hexagon:before {
+  bottom: 100%;
+  border-bottom: 86.60px solid #ffffff;
+}
+.u-hexagon:after {
+  top: 100%;
+  width: 0;
+  border-top: 86.60px solid #ffffff;
+}
 * {
   font-family: 'Source Sans Pro', sans-serif;
   -webkit-font-smoothing: antialiased !important;
@@ -109,7 +144,7 @@ li {
 /* Typography Classes */
 .t-header {
   font-weight: 700;
-  font-size: 50px;
+  font-size: 36px;
 }
 .t-subHeader {
   font-weight: 400;
@@ -121,8 +156,10 @@ li {
   font-size: 18px;
 }
 .t-title {
+  text-transform: uppercase;
   font-weight: 700;
   font-size: 36px;
+  margin-top: 0;
 }
 .t-paragraph {
   font-weight: 400;
@@ -131,14 +168,20 @@ li {
 .t-code {
   font-family: 'Inconsolata' monospace;
   font-weight: 700;
-  font-size: 25px;
+  font-size: 24px;
 }
 .t-btnText {
   font-weight: 700;
   text-transform: uppercase;
   font-size: 18px;
 }
+@media screen and (min-width: 768px) {
+  .t-header {
+    font-size: 54px;
+  }
+}
 .pure-button {
+  width: 100%;
   border-radius: 100px;
   padding: 1em 1.5em;
   transition: all 0.3s;
@@ -153,13 +196,12 @@ li {
   transform: scale(1.1);
 }
 .btn--ghost {
-  color: #444444;
-  border: 2px solid #444444;
+  color: white;
+  border: 2px solid white;
   background-color: transparent;
 }
 .btn--ghost:hover,
 .btn--ghost:focus {
-  background-color: #444444;
   color: white;
 }
 .btn--primary {
@@ -189,12 +231,49 @@ li {
 .btn--tertiary:focus {
   background-color: #f07be7;
 }
+@media screen and (min-width: 568px) {
+  .pure-button {
+    width: auto;
+  }
+}
 .l-1 {
   z-index: 1;
 }
 .l-2 {
   z-index: 10;
   box-shadow: 0 1px 2px rgba(0, 0, 0, 0.3);
+}
+.icon {
+  display: inline-block;
+  background-image: url('../images/icons-sprite.svg');
+}
+.icon-hexagon--large {
+  background-position: -282px -34px;
+  width: 100px;
+  height: 116px;
+}
+.icon-hexagon--large .icon {
+  margin-top: 30px;
+}
+.icon-code {
+  background-position: -3px -12px;
+  width: 70px;
+  height: 50px;
+}
+.icon-location {
+  background-position: -23px -88px;
+  width: 32.25px;
+  height: 50px;
+}
+.icon-group {
+  background-position: -15.5px -165.5px;
+  width: 43.75px;
+  height: 50px;
+}
+.icon-chevron--right {
+  background-position: -87px -7.6px;
+  width: 11px;
+  height: 15.6px;
 }
 * {
   box-sizing: border-box;
@@ -224,10 +303,12 @@ img {
 }
 .la-logo {
   position: relative;
+  width: 250px;
   max-width: 100%;
 }
 @media screen and (min-width: 768px) {
   .la-logo {
+    max-width: 100%;
     position: absolute;
     top: 160px;
     left: 0;

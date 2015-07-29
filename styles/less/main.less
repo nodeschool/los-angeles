@@ -1,5 +1,5 @@
 // utils and vars
-@import 'base/_colors';
+@import 'base/_variables';
 @import 'base/_mixins';
 @import 'base/_utilities';
 @import 'base/_typography';
@@ -39,11 +39,13 @@ img { max-width: 100%; }
 
 .la-logo {
   position: relative;
+  width: 250px;
   max-width: 100%;
 }
 
-@media screen and (min-width: 768px) {
+@media screen and (min-width: @md) {
   .la-logo {
+    max-width: 100%;
     position: absolute;
     top: 160px;
     left: 0;

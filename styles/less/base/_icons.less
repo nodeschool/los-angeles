@@ -1,61 +1,39 @@
-// @font-face {
-// 	font-family: 'icomoon';
-// 	src:url('/fonts/icomoon.eot?h8jwag');
-// 	src:url('/fonts/icomoon.eot?#iefixh8jwag') format('embedded-opentype'),
-// 		url('/fonts/icomoon.woff?h8jwag') format('woff'),
-// 		url('/fonts/icomoon.ttf?h8jwag') format('truetype'),
-// 		url('/fonts/icomoon.svg?h8jwag#icomoon') format('svg');
-// 	font-weight: normal;
-// 	font-style: normal;
-// }
-//
-// [class^="icon-"], [class*=" icon-"] {
-// 	font-family: 'icomoon';
-// 	speak: none;
-// 	font-style: normal;
-// 	font-weight: normal;
-// 	font-variant: normal;
-// 	text-transform: none;
-// 	line-height: 1;
-//
-// 	/* Better Font Rendering =========== */
-// 	-webkit-font-smoothing: antialiased;
-// 	-moz-osx-font-smoothing: grayscale;
-// }
-//
-// .icon-twitter:before {
-// 	content: "\f099";
-// }
-// .icon-github:before {
-// 	content: "\f113";
-// }
-// .icon-done:before {
-// 	content: "\e600";
-// }
-// .icon-external:before {
-// 	content: "\e601";
-// }
-// .icon-marker:before {
-// 	content: "\e602";
-// }
-// .icon-email:before {
-// 	content: "\e603";
-// }
-// .icon-time:before {
-// 	content: "\e604";
-// }
-// .icon-directions:before {
-// 	content: "\e605";
-// }
-// .icon-ticket:before {
-// 	content: "\e606";
-// }
-// .icon-close:before {
-// 	content: "\e607";
-// }
-// .icon-down:before {
-// 	content: "\e608";
-// }
-// .icon-menu:before {
-// 	content: "\e609";
-// }
+.icon {
+  display: inline-block;
+  background-image: url('../images/icons-sprite.svg');
+}
+
+.icon-hexagon--large {
+  background-position: -282px -34px;
+  width: 100px;
+  height: 116px;
+}
+
+// compound icons
+.icon-hexagon--large .icon {
+  margin-top: 30px;
+}
+
+.icon-code {
+  background-position: -3px -12px;
+  width: 70px;
+  height: 50px;
+}
+
+.icon-location {
+  background-position: -23px -88px;
+  width: 32.25px;
+  height: 50px;
+}
+
+.icon-group {
+  background-position: -15.5px -165.5px;
+  width: 43.75px;
+  height: 50px;
+}
+
+.icon-chevron--right {
+  background-position: -87px -7.6px;
+  width: 11px;
+  height: 15.6px;
+}
