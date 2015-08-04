@@ -2,7 +2,7 @@
 <html>
   <head>
     <meta charset="utf-8" />
-    <title>NodeSchool - Los Angeles, California</title>
+    <title>NodeSchool - {{chapter}}, {{state}}</title>
     <meta http-equiv="content-type" content="text/html; charset=utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="shortcut icon" href="./favicon.ico">
@@ -13,11 +13,11 @@
     <header class="u-bgColor--primary section">
       <div class="container pure-g">
         <div class="pure-u-1 pure-u-md-1-3 u-textAlign--center u-positionRelative">
-          <img src="./images/logo.svg" alt="Los Angeles NodeSchool" class="la-logo" />
+          <img src="./images/logo.svg" alt="{{chapter}} NodeSchool" class="la-logo" />
         </div>
         <div class="pure-u-1 pure-u-md-2-3 u-md-textAlign--left u-textAlign--center">
-          <h1 class="t-header u-color--white">NODESCHOOL <br />Los Angeles</h1>
-          <p class="t-subHeader u-color--white">Open source workshops that teach web software skills, based out in Los Angeles, California</p>
+          <h1 class="t-header u-color--white">NODESCHOOL <br />{{chapter}}</h1>
+          <p class="t-subHeader u-color--white">Open source workshops that teach web software skills, based out in {{chapter}}, {{state}}</p>
         </div>
       </div>
     </header>
@@ -25,10 +25,10 @@
       <div class="container pure-g">
         <div class="pure-u-1 pure-u-md-1-3"></div>
         <div class="pure-u-1 pure-u-md-2-3 u-md-textAlign--left u-textAlign--center">
-          <a href="https://ti.to/nodeschool-los-angeles/nodeschool-august-2015" target="_blank">
+          <a href="{{rsvpLink}}" target="_blank">
             <button class="pure-button btn--tertiary t-btnText u-xsVerticalMargin--base">RSVP <span class="icon icon-chevron--right"></span></button>
           </a>
-          <span class="t-calloutText u-color--dark">&nbsp;&nbsp;Next event: August 22nd, 2PM - 6PM</span>
+          <span class="t-calloutText u-color--dark">&nbsp;&nbsp;Next event: {{eventDate}}, {{eventTime}}</span>
         </div>
       </div>
     </section>
@@ -63,22 +63,22 @@
         </div>
         <div class="pure-u-1 pure-u-md-2-3">
           <h3 class="t-title u-color--secondary">For Everyone</h3>
-          <p class="t-paragraph u-color--dark">We think coding is awesome and everyone should feel welcome at our event. This includes that we are expecting all participants to be awesome to each other and respect the <a href="https://github.com/nodeschool/los-angeles/wiki/Code-of-Conduct" target="_blank">Code of Conduct.</a></p>
+          <p class="t-paragraph u-color--dark">We think coding is awesome and everyone should feel welcome at our event. This includes that we are expecting all participants to be awesome to each other and respect the <a href="{{codeOfConduct}}" target="_blank">Code of Conduct.</a></p>
         </div>
       </div>
     </article>
     <section class="u-bgColor--secondary section">
       <div class="container pure-g">
-        <div class="pure-u-1 pure-u-md-1-3 u-textAlign--center map u-xsVerticalMargin--base" style="background-image: url('https://maps.googleapis.com/maps/api/staticmap?center=21300 Victory Blvd, 12th Floor, Woodland Hills, CA 91367&zoom=16&size=640x400');">
-          <a href="https://www.google.com/maps/?q=21300 Victory Blvd, 12th Floor, Woodland Hills, CA 91367" target="_blank">
+        <div class="pure-u-1 pure-u-md-1-3 u-textAlign--center map u-xsVerticalMargin--base" style="background-image: url('https://maps.googleapis.com/maps/api/staticmap?center={{eventAddress}}&zoom=16&size=640x400');">
+          <a href="https://www.google.com/maps/?q={{eventAddress}}" target="_blank">
             <div class="icon-location icon icon-location--map"></div>
           </a>
         </div>
         <div class="pure-u-1 pure-u-md-2-3">
           <h3 class="t-title u-color--light">Next Event Details</h3>
-          <p class="t-paragraph u-color--light"><span class="t-btnText">Address: </span><a href="https://www.google.com/maps/?q=21300 Victory Blvd, 12th Floor, Woodland Hills, CA 91367" class="u-color--white" target="_blank">21300 Victory Blvd, 12th Floor, Woodland Hills, CA 91367</a></p>
+          <p class="t-paragraph u-color--light"><span class="t-btnText">Address: </span><a href="https://www.google.com/maps/?q={{eventAddress}}" class="u-color--white" target="_blank">{{eventAddress}}</a></p>
           <p class="t-paragraph u-color--light">Currently no other details</p>
-          <a href="https://www.google.com/maps/?q=21300 Victory Blvd, 12th Floor, Woodland Hills, CA 91367" class="t-btnText pure-button btn--ghost" target="_blank">View Larger Map</a>
+          <a href="https://www.google.com/maps/?q={{eventAddress}}" class="t-btnText pure-button btn--ghost" target="_blank">View Larger Map</a>
         </div>
       </div>
     </section>
@@ -101,16 +101,18 @@
           <h3 class="t-title u-color--secondary">Sponsors</h3>
         </div>
       </div>
+      {{#each sponsors}}
         <div class="container pure-g">
           <div class="pure-u-1 pure-u-md-1-3">
-            <a href="http://www.blackline.com/" target="_blank">
-              <img src="images/sponsors/blackline.png" alt="blackline logo" />
+            <a href="{{link}}" target="_blank">
+              <img src="{{logo}}" alt="{{name}} logo" />
             </a>
           </div>
           <div class="pure-u-1 pure-u-md-2-3">
-            <p class="t-paragraph u-color--dark"><a href="http://www.blackline.com/" target="_blank">BlackLine</a> is the first and most experienced provider of enterprise-class software designed to automate and control the entire financial close process. The first BlackLine module was developed when a client, First National Bank of Nebraska, asked BlackLine for help managing their account reconciliation process. Like many companies, they were using spreadsheets to manage thousands of reconciliations every month. In response, BlackLine developed and marketed the first commercially available software designed specifically for tracking and completing balance sheet account reconciliations.</p>
+            <p class="t-paragraph u-color--dark">{{{description}}}</p>
           </div>
         </div>
+      {{/each}}
     </section>
     <section>
       <div class="container u-textAlign--center section pure-g">
@@ -119,7 +121,7 @@
         <div class="pure-u-1 pure-u-md-3-4">
           <h3 class="t-title u-color--secondary">Questions? Want to help out?</h3>
           <p class="t-paragraph u-color--dark">Just open an issue on GitHub and join the discussion.</p>
-          <a href="https://github.com/nodeschool/los-angeles/issues/new" target="_blank" class="pure-button btn--secondary t-btnText" target="_blank">Open an Issue</a>
+          <a href="{{repo}}/issues/new" target="_blank" class="pure-button btn--secondary t-btnText" target="_blank">Open an Issue</a>
           <p class="t-paragraph u-color--dark">If you are new to Git and GitHub, create a <a href="https://github.com/join" target="_blank">free account</a> and check out the <a href="https://github.com/jlord/git-it" target="_blank">Git-it</a> workshop to help you get started.</p>
         </div>
       </div>
@@ -133,8 +135,8 @@
         </div>
         <div class="pure-u-1 pure-u-md-1-2">
           <p class="u-color--white t-btnText">Join Us</p>
-          <p><a href="https://twitter.com/nodeschoolla" target="_blank">Twitter</a></p>
-          <p><a href="http://js.la/slack" target="_blank">Slack</a></p>
+          <p><a href="{{twitterLink}}" target="_blank">Twitter</a></p>
+          <p><a href="{{slackLink}}" target="_blank">Slack</a></p>
         </div>
       </div>
     </footer>

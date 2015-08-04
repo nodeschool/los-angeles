@@ -1,0 +1,20 @@
+{
+  "chapter": "Los Angeles",
+  "state": "California",
+  "eventAddress": "21300 Victory Blvd, 12th Floor, Woodland Hills, CA 91367",
+  "eventDate": "August 22nd",
+  "eventTime": "2PM - 6PM",
+  "repo": "https://github.com/nodeschool/los-angeles",
+  "rsvpLink": "https://ti.to/nodeschool-los-angeles/nodeschool-august-2015",
+  "codeOfConduct": "https://github.com/nodeschool/los-angeles/wiki/Code-of-Conduct",
+  "sponsors": [
+    {
+      "name": "blackline",
+      "logo": "images/sponsors/blackline.png",
+      "link": "http://www.blackline.com/",
+      "description": "<a href=\"http://www.blackline.com/\" target=\"_blank\">BlackLine</a> is the first and most experienced provider of enterprise-class software designed to automate and control the entire financial close process. The first BlackLine module was developed when a client, First National Bank of Nebraska, asked BlackLine for help managing their account reconciliation process. Like many companies, they were using spreadsheets to manage thousands of reconciliations every month. In response, BlackLine developed and marketed the first commercially available software designed specifically for tracking and completing balance sheet account reconciliations."
+    }
+  ],
+  "twitterLink": "https://twitter.com/nodeschoolla",
+  "slackLink": "http://js.la/slack"
+}

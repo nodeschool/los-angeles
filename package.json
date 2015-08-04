@@ -1,0 +1,29 @@
+{
+  "name": "nodeschool-la",
+  "version": "1.0.0",
+  "description": "Los Angeles Nodeschool Chapter",
+  "main": "index.js",
+  "scripts": {
+    "build": "npm run styles && npm run templates",
+    "styles": "lessc styles/less/main.less styles/main.css",
+    "test": "echo \"Nodeschool YEAH\" && exit 0",
+    "templates": "node index.js templates/layout.hbs ./data/index.json index.html"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nodeschool/los-angeles.git"
+  },
+  "keywords": [
+    "nodeschool"
+  ],
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/nodeschool/los-angeles/issues"
+  },
+  "homepage": "https://github.com/nodeschool/los-angeles#readme",
+  "devDependencies": {
+    "handlebars": "^3.0.3",
+    "less": "^2.5.1"
+  }
+}
