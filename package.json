@@ -23,6 +23,7 @@
   },
   "homepage": "https://github.com/nodeschool/los-angeles#readme",
   "devDependencies": {
-    "handlebars": "^3.0.3"
+    "handlebars": "^3.0.3",
+    "less": "^2.5.1"
   }
 }
