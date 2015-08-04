@@ -153,6 +153,7 @@ li {
 .t-header {
   font-weight: 700;
   font-size: 36px;
+  text-transform: uppercase;
 }
 .t-subHeader {
   font-weight: 400;
