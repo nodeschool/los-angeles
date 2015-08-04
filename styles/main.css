@@ -102,6 +102,14 @@
   width: 0;
   border-top: 86.60px solid #ffffff;
 }
+.u-xsVerticalMargin--base {
+  margin-bottom: 20px;
+}
+@media (min-width: 568px) {
+  .u-xsVerticalMargin--base {
+    margin-bottom: 0;
+  }
+}
 * {
   font-family: 'Source Sans Pro', sans-serif;
   -webkit-font-smoothing: antialiased !important;
@@ -184,6 +192,7 @@ li {
   width: 100%;
   border-radius: 100px;
   padding: 1em 1.5em;
+  white-space: normal;
   transition: all 0.3s;
 }
 .pure-button:active,
@@ -275,6 +284,13 @@ li {
   width: 11px;
   height: 15.6px;
 }
+.icon-location--map {
+  position: absolute;
+  margin-top: -25px;
+  margin-left: -16.125px;
+  top: 50%;
+  left: 50%;
+}
 * {
   box-sizing: border-box;
 }
@@ -308,11 +324,23 @@ img {
 }
 @media screen and (min-width: 768px) {
   .la-logo {
-    max-width: 100%;
+    width: 100%;
     position: absolute;
     top: 160px;
     left: 0;
     right: 0;
     padding: 20px;
+  }
+}
+.map {
+  height: 250px;
+  position: relative;
+  background-position: center center;
+  background-size: cover;
+  border: 2px solid white;
+}
+@media screen and (min-width: 568px) {
+  .map {
+    height: auto;
   }
 }

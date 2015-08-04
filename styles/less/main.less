@@ -45,11 +45,24 @@ img { max-width: 100%; }
 
 @media screen and (min-width: @md) {
   .la-logo {
-    max-width: 100%;
+    width: 100%;
     position: absolute;
     top: 160px;
     left: 0;
     right: 0;
     padding: 20px;
   }
+}
+
+.map {
+  height: 250px;
+  position: relative;
+  background-position: center center;
+  background-size: cover;
+  border: 2px solid white;
+}
+
+
+@media screen and ( min-width: @sm ) {
+  .map {height: auto;}
 }
