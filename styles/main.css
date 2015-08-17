@@ -341,7 +341,5 @@ img {
   border: 2px solid white;
 }
 @media screen and (min-width: 568px) {
-  .map {
-    height: auto;
-  }
+  /* .map {height: auto;} */
 }
