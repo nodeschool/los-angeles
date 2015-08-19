@@ -14,6 +14,7 @@ To sign up for the next event, please visit: http://nodeschool.io/los-angeles
  * [@xbudex] (http://github.com/xbudex)
  * [@jnutter] (http://github.com/jnutter)
  * [@upinthisjoynt] (https://github.com/upinthisjoynt)
+ * [@8bitdesigner] (https://github.com/8bitdesigner)
 
 **General Helpers**
  * [@d48](https://github.com/d48)
