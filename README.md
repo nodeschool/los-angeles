@@ -3,7 +3,7 @@ los-angeles
 
 nodeschool: LA Edition
 
-## Next Event, Saturday, September 19, 2015. 2pm - 6pm
+## Next Event, Saturday, November 7th, 2015. 2pm - 6pm
 
 To sign up for the next event, please visit: http://nodeschool.io/los-angeles
 
