@@ -2,12 +2,12 @@
   "chapter": "Los Angeles",
   "state": "California",
   "eventAddress": "5300 Beethoven St, Los Angeles, CA 90066",
-  "eventDate": "September 19, 2015",
+  "eventDate": "December 5, 2015",
   "eventDetails": "",
   "eventDetails": "<h2 class=\"u-color--light\">Before the Event</h2><p class=\"u-color--light\">Before the event on Saturday, install Node.js and a workshop that you'd like to work on. If you are just starting out, \"learnyounode\" is highly recommended. Doing this before the event will help you get going quickly.</p><h2 class=\"u-color--light\">Parking and Event time</h2><p class=\"u-color--light\">Codesmith will be our lovely hosts for this event and they are located at 5300 Beethoven St, 90066. There will be ample parking under the building or in the cul-de-sac outside marked \"visitor parking\". Once parked, take the elevator in the parking area up to the PH level.</p><h2 class=\"u-color--light\">Check-in and Food / Drink</h2><p class=\"u-color--light\">Please find a name tag and write your name. Food and drink should be available so please help yourself before the event begins.</p><h2 class=\"u-color--light\">Tables and Wifi</h2><p class=\"u-color--light\">Please find a table and chair inside the main training room. Connect yourself to the wireless network and download any necessary programs and workshopper to get started (Node.js and Learnyounode if it's your first time with Node.js). The network name will displayed on the video screens. Mentors will be available to assist if you haven't done this step prior to arriving at the event.</p><h2 class=\"u-color--light\">What to Expect</h2><p class=\"u-color--light\">Will Sentance, CTO at Codesmith will be giving a 30 minute talk before the NodeSchool event, starting at 1:30pm.</p><p class=\"u-color--light\">Actual time to get to work on a workshopper will be about 3 to 3 1/2 hours. You are free to work on any workshopper you like and mentors will be available if you get stuck or need any assistance. Everyone is here to learn so there are no egos and no questions that are too silly to ask. Come join and have fun while learning!</p>",
   "eventTime": "2pm - 6pm",
   "repo": "https://github.com/nodeschool/los-angeles",
-  "rsvpLink": "https://ti.to/nodeschool-los-angeles/september-2015",
+  "rsvpLink": "https://ti.to/nodeschool-los-angeles/december-2015",
   "codeOfConduct": "https://github.com/nodeschool/los-angeles/wiki/Code-of-Conduct",
   "sponsors": [
   {
