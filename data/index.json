@@ -1,20 +1,26 @@
 {
   "chapter": "Los Angeles",
   "state": "California",
-  "eventAddress": "5300 Beethoven St, Los Angeles, CA 90066",
-  "eventDate": "December 5, 2015",
+  "eventAddress": "MakerSquare: Los Angeles Campus, 604 Arizona Ave, Suite 238, Santa Monica, A 90401",
+  "eventDate": "February 6, 2016",
   "eventDetails": "",
-  "eventDetails": "<h2 class=\"u-color--light\">Before the Event</h2><p class=\"u-color--light\">Before the event on Saturday, install Node.js and a workshop that you'd like to work on. If you are just starting out, \"learnyounode\" is highly recommended. Doing this before the event will help you get going quickly.</p><h2 class=\"u-color--light\">Parking and Event time</h2><p class=\"u-color--light\">Codesmith will be our lovely hosts for this event and they are located at 5300 Beethoven St, 90066. There will be ample parking under the building or in the cul-de-sac outside marked \"visitor parking\". Once parked, take the elevator in the parking area up to the PH level.</p><h2 class=\"u-color--light\">Check-in and Food / Drink</h2><p class=\"u-color--light\">Please find a name tag and write your name. Food and drink should be available so please help yourself before the event begins.</p><h2 class=\"u-color--light\">Tables and Wifi</h2><p class=\"u-color--light\">Please find a table and chair inside the main training room. Connect yourself to the wireless network and download any necessary programs and workshopper to get started (Node.js and Learnyounode if it's your first time with Node.js). The network name will displayed on the video screens. Mentors will be available to assist if you haven't done this step prior to arriving at the event.</p><h2 class=\"u-color--light\">What to Expect</h2><p class=\"u-color--light\">Will Sentance, CTO at Codesmith will be giving a 30 minute talk before the NodeSchool event, starting at 1:30pm.</p><p class=\"u-color--light\">Actual time to get to work on a workshopper will be about 3 to 3 1/2 hours. You are free to work on any workshopper you like and mentors will be available if you get stuck or need any assistance. Everyone is here to learn so there are no egos and no questions that are too silly to ask. Come join and have fun while learning!</p>",
+  "eventDetails": "<h2 class=\"u-color--light\">TBD</h2><p class=\"u-color--light\">To be determined.",
   "eventTime": "2pm - 6pm",
   "repo": "https://github.com/nodeschool/los-angeles",
-  "rsvpLink": "https://ti.to/nodeschool-los-angeles/december-2015",
+  "rsvpLink": "https://ti.to/nodeschool-los-angeles/january-2016",
   "codeOfConduct": "https://github.com/nodeschool/los-angeles/wiki/Code-of-Conduct",
   "sponsors": [
   {
-    "link": "http://www.codesmith.io",
-    "logo": "./images/logo-codesmith.png",
-    "name": "Codesmith",
-    "description": "<a href=\"http://www.codesmith.io\" target=\"_blank\">Codesmith (codesmith.io)</a> is an 12 week immersive software engineering academy teaching fullstack javascript based in los angeles. the program teaches mastery of modern programming so our graduates can land $100k+ engineering roles or launch their own ventures."
+    "link": "http://www.makersquare.com",
+    "logo": "./images/logo-makersquare.png",
+    "name": "MakerSquare",
+    "description": "<a href=\"http://www.makersquare.com\" target=\"_blank\">MakerSquare</a> craft modern software engineers through a highly selective 12-week immersion course in Austin, San Francisco, and Los Angeles."
+  },
+  {
+    "link": "https://hellofloat.com",
+    "logo": "./images/logo-float.png",
+    "name": "float",
+    "description": "<p><a href=\"https://hellofloat.com\" target=\"_blank\">Float</a> is an innovative, mobile-first financial technology provider aiming to upend the systemic issues modern consumers face with traditional banking, like technology, access, and a lack of credit history.</p><p>Float’s first product will offer a secure way for consumers to get instant access to credit via a mobile app. Unlike traditional providers, Float’s proprietary technology considers multiple factors beyond credit history when lending, enabling tech-savvy and under-credited consumers to access, build, and maintain credit directly from their smartphones. Float’s credit product will be available to select consumers in December of this year.</p>"
   }
   ],
   "twitterLink": "https://twitter.com/nodeschoolla",
