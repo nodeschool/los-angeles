@@ -3,12 +3,20 @@ los-angeles
 
 nodeschool: LA Edition
 
-## Saturday, March 5, 2016. 2pm - 6pm
+## When: Saturday, March 5, 2016. 2pm - 6pm
 
-To sign up for the next event, please visit: http://nodeschool.io/los-angeles
+## Where: CodeSmith
+####  5300 Beethoven St, Los Angeles, CA 90066
+
+## Join: 
+#### To sign up for the next event, please visit: http://nodeschool.io/los-angeles
 
 **Mentors**
-TBD
+ * @d48
+ * @stefansundin
+ * @ashwell
+ * @MrSkinny
+ * @upinthisjoynt
 
 _If you would like to help mentor at this event, please create a [Pull Request](https://github.com/nodeschool/los-angeles/pulls) and add your name to this list._
 
