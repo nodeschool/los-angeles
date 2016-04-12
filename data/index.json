@@ -14,6 +14,13 @@
         "logo": "./images/logo-float.png",
         "name": "float",
         "description": "<p><a href=\"https://hellofloat.com\" target=\"_blank\">Float</a>  is a modern, digital financial company. Our first product, Float Credit offers instant access to credit from a mobile device. We use your bank account to approve you, so there's no risk to your credit score when you apply. You could be approved and using your credit within a few minutes, right from your phone!"
+      },
+      {
+        "link": "http://js.la",
+        "logo": "./images/logo-jsla.png",
+        "name": "JS.LA",
+        "description": "<p><a href=\"http://js.la\" target=\"_blank\">JS.LA</a> is the premier javascript enthusiast meetup in Los Angeles. Meeting the last Thursday of the month JSLA invites the best and brightest in the JavaScript community to present their experiences working with JavaScript and related internet technologies.</p>"
+
       }
   ],
   "twitterLink": "https://twitter.com/nodeschoolla",
