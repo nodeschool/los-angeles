@@ -3,7 +3,7 @@ los-angeles
 
 nodeschool: LA Edition
 
-## When: Saturday, April 2, 2016. 2pm - 6pm
+## When: Saturday, May 7, 2016. 2pm - 6pm
 
 ## Where: CodeSmith
 ####  5300 Beethoven St, Los Angeles, CA 90066
@@ -13,6 +13,8 @@ nodeschool: LA Edition
 
 **Mentors**
  * @d48
+ * @etanlubeck
+ * @upinthisjoynt
  * @jcblw
  * you?
 
