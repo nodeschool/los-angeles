@@ -3,7 +3,7 @@ los-angeles
 
 nodeschool: LA Edition
 
-## When: Saturday, June 4, 2016. 2pm - 6pm
+## When: Saturday, July 2, 2016. 2pm - 6pm
 
 ## Where: CodeSmith
 ####  5300 Beethoven St, Los Angeles, CA 90066
@@ -12,10 +12,7 @@ nodeschool: LA Edition
 #### To sign up for the next event, please visit: http://nodeschool.io/los-angeles
 
 **Mentors**
- * @jcblw
- * @d48
- * @ashwell
- * @etanlubeck
+ TBD
 
 _If you would like to help mentor at this event, please create a [Pull Request](https://github.com/nodeschool/los-angeles/pulls) and add your name to this list._
 
