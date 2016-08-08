@@ -1,19 +1,19 @@
 {
   "chapter": "Los Angeles",
   "state": "California",
-  "eventAddress": "2029 Avenue of the Stars, Los Angeles, CA 90067",
-  "eventDate": "August 6, 2016",
-  "eventDetails": "<h2 class=\"u-color--light\">Special NodeBots Day Event</h2><p class=\"u-color--light\">Creative Artists Agency is holding it's first International NodeBots Day (http://nodebotsday.caa.com/) on Saturday August 6th from 9AM to 5 PM. Together with js.la, we are inviting you to come out and join the hackathoh. CAA NodeBots Day is a meetup for JavaScript enthusiasts and hardware hackers of all skill levels to come together, collaborate, and play with the latest and greatest hardware. NodeBots are robots powered by Node.js and JavaScript but can often include software in a variety of languages. They are a great way to learn both JavaScript and hardware concepts alike. You can find out more about NodeBots at: http://www.nodebots.io Johnny-Five is a great place to get started if you want to get familiar before the event, and this is what NodeSchool Los Angeles will be covering for the event. Come join us and play with some Tessel 2's, Raspberry Pi's, Arduinos, and more and learn something new!</p>",
-  "eventTime": "9am - 5pm",
+  "eventAddress": "Cowork South Bay, 22519 Hawthorne Blvd, Torrance, CA 90505",
+  "eventDate": "September 3, 2016",
+  "eventDetails": "<h2 class=\"u-color--light\">TBD</h2><p class=\"u-color--light\">More information will be provided shortly.</p>",
+  "eventTime": "2pm - 6pm",
   "repo": "https://github.com/nodeschool/los-angeles",
-  "rsvpLink": "https://ti.to/jsla/caa-nodebots-day-2016/en",
+  "rsvpLink": "https://ti.to/nodeschool-los-angeles/september-2016",
   "codeOfConduct": "https://github.com/nodeschool/los-angeles/wiki/Code-of-Conduct",
   "sponsors": [
       {
-        "link": "http://www.caa.com/",
-        "logo": "./images/logo-caa.png",
-        "name": "Creative Artists Agency",
-        "description": "<p>Leading entertainment and sports agency Creative Artists Agency (CAA) represents many of the most successful and innovative professionals working in film, television, music, video games, theatre, and digital content, and provides a range of strategic marketing and consulting services to corporate clients.  CAA is also a leader in sports, representing more than 1,000 of the world’s top athletes in football, baseball, basketball, hockey, soccer, tennis, and golf, and works in the areas of broadcast rights, corporate marketing initiatives, licensing, and sports properties for sales and sponsorship opportunities."
+        "link": "http://www.meetup.com/code-district/",
+        "logo": "./images/logo-code-district.png",
+        "name": "Code District",
+        "description": "<p>Code District provides innovative, technology training in high-demand skills ranging from full stack JavaScript web development to social media marketing. All our classes and workshops are instructed by industry professionals.</p>"
       }
   ],
   "twitterLink": "https://twitter.com/nodeschoolla",
