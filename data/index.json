@@ -9,13 +9,20 @@
   "rsvpLink": "https://ti.to/nodeschool-los-angeles/october-2016",
   "codeOfConduct": "https://github.com/nodeschool/los-angeles/wiki/Code-of-Conduct",
   "sponsors": [
-      {
-          "link": "http://www.codesmith.io",
-          "logo": "./images/logo-codesmith.png",
-          "name": "Codesmith",
-          "description": "<a href=\"http://www.codesmith.io\" target=\"_blank\">Codesmith (codesmith.io)</a>a> is an 12 week immersive software engineering academy teaching fullstack javascript based in los angeles. the program teaches mastery of modern programming so our graduates can land mid to senior engineering roles or launch their own ventures."
+  {
+      "link": "http://www.codesmith.io",
+      "logo": "./images/logo-codesmith.png",
+      "name": "Codesmith",
+      "description": "<a href=\"http://www.codesmith.io\" target=\"_blank\">Codesmith (codesmith.io)</a> is an 12 week immersive software engineering academy teaching fullstack javascript based in los angeles. the program teaches mastery of modern programming so our graduates can land mid to senior engineering roles or launch their own ventures."
 
-      }
+  },
+  {
+      "link": "http://js.la",
+      "logo": "./images/logo-jsla-new.png",
+      "name": "JS.LA",
+      "description": "<p><a href=\"http://js.la\" target=\"_blank\">JS.LA</a> is the premier javascript enthusiast meetup in Los Angeles. Meeting the last Thursday of the month JSLA invites the best and brightest in the JavaScript community to present their experiences working with JavaScript and related internet technologies.</p>"
+
+  }
   ],
   "twitterLink": "https://twitter.com/nodeschoolla",
   "slackLink": "http://js.la/slack"
