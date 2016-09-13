@@ -1,19 +1,20 @@
 {
   "chapter": "Los Angeles",
   "state": "California",
-  "eventAddress": "2029 Avenue of the Stars, Los Angeles, CA 90067",
-  "eventDate": "August 6, 2016",
-  "eventDetails": "<h2 class=\"u-color--light\">Special NodeBots Day Event</h2><p class=\"u-color--light\">Creative Artists Agency is holding it's first International NodeBots Day (http://nodebotsday.caa.com/) on Saturday August 6th from 9AM to 5 PM. Together with js.la, we are inviting you to come out and join the hackathoh. CAA NodeBots Day is a meetup for JavaScript enthusiasts and hardware hackers of all skill levels to come together, collaborate, and play with the latest and greatest hardware. NodeBots are robots powered by Node.js and JavaScript but can often include software in a variety of languages. They are a great way to learn both JavaScript and hardware concepts alike. You can find out more about NodeBots at: http://www.nodebots.io Johnny-Five is a great place to get started if you want to get familiar before the event, and this is what NodeSchool Los Angeles will be covering for the event. Come join us and play with some Tessel 2's, Raspberry Pi's, Arduinos, and more and learn something new!</p>",
-  "eventTime": "9am - 5pm",
+  "eventAddress": "5300 Beethoven St, Los Angeles, CA 90066",
+  "eventDate": "October 1, 2016",
+  "eventDetails": "<h2 class=\"u-color--light\">Before the Event</h2><p class=\"u-color--light\">Before the event on Saturday, install Node.js and a workshop that you'd like to work on. If you are just starting out, \"learnyounode\" is highly recommended. Doing this before the event will help you get going quickly.</p><h2 class=\"u-color--light\">Parking and Event time</h2><p class=\"u-color--light\">Codesmith will be our lovely hosts for this event and they are located at 5300 Beethoven St, 90066. There will be ample parking under the building or in the cul-de-sac outside marked \"visitor parking\". Once parked, take the elevator in the parking area up to the PH level.</p><h2 class=\"u-color--light\">Check-in and Food / Drink</h2><p class=\"u-color--light\">Please find a name tag and write your name. Food and drink should be available so please help yourself before the event begins.</p><h2 class=\"u-color--light\">Tables and Wifi</h2><p class=\"u-color--light\">Please find a table and chair inside the main training room. Connect yourself to the wireless network and download any necessary programs and workshopper to get started (Node.js and Learnyounode if it's your first time with Node.js). The network name will displayed on the video screens. Mentors will be available to assist if you haven't done this step prior to arriving at the event.</p><h2 class=\"u-color--light\">What to Expect</h2><p class=\"u-color--light\">Actual time to get to work on a workshopper will be about 3 to 3 1/2 hours. You are free to work on any workshopper you like and mentors will be available if you get stuck or need any assistance. Everyone is here to learn so there are no egos and no questions that are too silly to ask. Come join and have fun while learning!</p>",
+  "eventTime": "2pm - 6pm",
   "repo": "https://github.com/nodeschool/los-angeles",
-  "rsvpLink": "https://ti.to/jsla/caa-nodebots-day-2016/en",
+  "rsvpLink": "https://ti.to/nodeschool-los-angeles/october-2016",
   "codeOfConduct": "https://github.com/nodeschool/los-angeles/wiki/Code-of-Conduct",
   "sponsors": [
       {
-        "link": "http://www.caa.com/",
-        "logo": "./images/logo-caa.png",
-        "name": "Creative Artists Agency",
-        "description": "<p>Leading entertainment and sports agency Creative Artists Agency (CAA) represents many of the most successful and innovative professionals working in film, television, music, video games, theatre, and digital content, and provides a range of strategic marketing and consulting services to corporate clients.  CAA is also a leader in sports, representing more than 1,000 of the world’s top athletes in football, baseball, basketball, hockey, soccer, tennis, and golf, and works in the areas of broadcast rights, corporate marketing initiatives, licensing, and sports properties for sales and sponsorship opportunities."
+          "link": "http://www.codesmith.io",
+          "logo": "./images/logo-codesmith.png",
+          "name": "Codesmith",
+          "description": "<a href=\"http://www.codesmith.io\" target=\"_blank\">Codesmith (codesmith.io)</a>a> is an 12 week immersive software engineering academy teaching fullstack javascript based in los angeles. the program teaches mastery of modern programming so our graduates can land mid to senior engineering roles or launch their own ventures."
+
       }
   ],
   "twitterLink": "https://twitter.com/nodeschoolla",
