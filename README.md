@@ -18,5 +18,5 @@ nodeschool: LA Edition
 * @etanlubeck
 * Jeanne-Pierre
 
-_If you would like to help mentor at this event, please see the open issue for a "Mentor Roll Call" [issue](https://github.com/nodeschool/los-angeles/issues) for the upcoming event and add a comment that you would like to mentor._
+_If you would like to help mentor at this event, please see the open "Mentor Roll Call" [issue](https://github.com/nodeschool/los-angeles/issues) for the upcoming event and add a comment that you would like to mentor._
 
