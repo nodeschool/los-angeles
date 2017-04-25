@@ -13,6 +13,7 @@ nodeschool: LA Edition
 
 **Mentors**
 * @etanlubeck
+* @rouzbeh84
 
 _If you would like to help mentor at this event, please see the open "Mentor Roll Call" [issue](https://github.com/nodeschool/los-angeles/issues) for the upcoming event and add a comment that you would like to mentor._
 
