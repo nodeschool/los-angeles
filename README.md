@@ -5,8 +5,7 @@ nodeschool: LA Edition
 
 ## When: Saturday, November 4th, 2017. 2pm - 5pm
 
-## Where: El Camp
-####  2150 Park Pl, El Segundo, CA 90245
+## Where: TBD
 
 ## Join:
 #### To sign up for the next event, please visit: http://nodeschool.io/los-angeles
@@ -14,4 +13,4 @@ nodeschool: LA Edition
 **Mentors**
 * You?
 
-_If you would like to help mentor at this event, please see the open "Mentor Roll Call" [issue](https://github.com/nodeschool/los-angeles/issues) for the upcoming event and add a comment that you would like to mentor._
+_If you would like to help mentor at this event, please visit the ["Mentor Roll Call"](https://github.com/nodeschool/los-angeles/issues) issue for the upcoming event and add a comment that you would like to mentor._
