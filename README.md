@@ -5,7 +5,7 @@ nodeschool: LA Edition
 
 ## When: Saturday, November 4th, 2017. 2pm - 5pm
 
-## Where: 2150 Park Pl, El Segundo, CA 90245
+## Where: 2150 Park Pl, Suite 100, El Segundo, CA 90245
 
 ## Join:
 #### To sign up for the next event, please visit: http://nodeschool.io/los-angeles
