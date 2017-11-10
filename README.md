@@ -3,9 +3,10 @@ los-angeles
 
 nodeschool: LA Edition
 
-## When: Saturday, November 4th, 2017. 2pm - 5pm
+## When: Saturday, December 2nd, 2017. 2pm - 5pm
 
-## Where: 2150 Park Pl, Suite 100, El Segundo, CA 90245
+## Where: Codesmith
+#### 5300 Beethoven Street, PH Floor (4th), Los Angeles, CA 90066
 
 ## Join:
 #### To sign up for the next event, please visit: http://nodeschool.io/los-angeles
