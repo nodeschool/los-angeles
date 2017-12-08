@@ -3,7 +3,7 @@ los-angeles
 
 nodeschool: LA Edition
 
-## When: Saturday, December 2nd, 2017. 2pm - 5pm
+## When: Saturday, January 6th, 2018. 2pm - 5pm
 
 ## Where: Codesmith
 #### 5300 Beethoven Street, PH Floor (4th), Los Angeles, CA 90066
