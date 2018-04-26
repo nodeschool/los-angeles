@@ -10,11 +10,16 @@
   "codeOfConduct": "https://github.com/nodeschool/los-angeles/wiki/Code-of-Conduct",
   "sponsors": [
   {
+    "link": "http://replicated.com",
+    "logo": "./images/logo-replicated.png",
+    "name": "Replicated",
+    "description": "<p><a href=\"http://replicated.com\" target=\"_blank\">Replicated</a>  gives SaaS vendors a container-based platform for easily deploying their cloud-native applications inside customers' environments. Because security and control still matter."
+  },
+  {
       "link": "http://js.la",
       "logo": "./images/logo-jsla-new.png",
       "name": "js.la",
       "description": "<p><a href=\"http://js.la\" target=\"_blank\">js.la</a> is the premier javascript enthusiast meetup in Los Angeles. Meeting the last Thursday of the month js.la invites the best and brightest in the JavaScript community to present their experiences working with JavaScript and related internet technologies.</p>"
-
   }
   ],
   "twitterLink": "https://twitter.com/nodeschoolla",
