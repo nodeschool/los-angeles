@@ -5,7 +5,7 @@ nodeschool: LA Edition
 
 ## When: Saturday, May 5th, 2018. 2pm - 5pm
 
-## Where: Replciated
+## Where: Replicated
 #### 5913 Blackwelder St, Culver City, CA 90232
 <!-- 
 ## Where: Codesmith
