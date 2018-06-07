@@ -3,10 +3,10 @@ los-angeles
 
 nodeschool: LA Edition
 
-## When: Saturday, June 2nd, 2018. 2pm - 5pm
+## When: Saturday, July 7th, 2018. 2pm - 5pm
 
-## Where: Codesmith
-#### 1600 Main Street, Venice, CA 90291
+## Where: Replicated
+#### 5193 Blackwelder Street, Culver City, CA 90232
 
 ## Join:
 #### To sign up for the next event, please visit: http://nodeschool.io/los-angeles
