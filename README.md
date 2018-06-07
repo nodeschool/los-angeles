@@ -6,7 +6,7 @@ nodeschool: LA Edition
 ## When: Saturday, July 7th, 2018. 2pm - 5pm
 
 ## Where: Replicated
-#### 5193 Blackwelder Street, Culver City, CA 90232
+#### 5913 Blackwelder Street, Culver City, CA 90232
 
 ## Join:
 #### To sign up for the next event, please visit: http://nodeschool.io/los-angeles
