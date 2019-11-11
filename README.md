@@ -3,7 +3,7 @@ los-angeles
 
 nodeschool: LA Edition
 
-## When: Saturday, November 2nd, 2019. 2pm - 5pm
+## When: Saturday, December 2nd, 2019. 2pm - 5pm
 
 ## Where: Replicated
 #### 5913 Blackwelder Street, Culver City, CA 90232
